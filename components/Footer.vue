@@ -9,6 +9,9 @@
                         })
                     }}
                 </p>
+                <p>
+                    {{ $t("footer.disclaimer") }}
+                </p>
             </div>
             <div class="footer__links">
                 <PlayButton />
