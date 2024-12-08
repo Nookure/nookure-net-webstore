@@ -32,7 +32,7 @@
                     <NuxtImg
                         preload
                         class="header__logo d-none d-md-block"
-                        width="120"
+                        width="64"
                         src="/logo.webp"
                         :alt="$t('store_name')"
                     />

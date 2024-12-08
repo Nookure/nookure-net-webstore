@@ -2,7 +2,7 @@
     <Hero
         :title="$t('index.hero.title')"
         :subtitle="$t('index.hero.subtitle')"
-        image="/sky.png"
+        image="/background.webp"
         class="mb-8"
     />
 
