@@ -18,7 +18,7 @@ export default defineAppConfig({
     // A IP of your server which to display (optional)
     serverIp: "play.nookure.net",
     // Reveal the sidebar when an item is added to the cart?
-    showCartOnAdd: true,
+    showCartOnAdd: false,
     // Show confetti after checkout?
     confetti: false,
     // Game type name to display on the store
