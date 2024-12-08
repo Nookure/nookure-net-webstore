@@ -44,9 +44,9 @@
                         :aria-label="$t('buttons.go_to_top')"
                     >
                         <NuxtImg
-                            src="/logo-icon.svg"
+                            src="/logo.webp"
                             :alt="$t('store_name')"
-                            width="16"
+                            width="42"
                         />
                     </Button>
                 </div>
