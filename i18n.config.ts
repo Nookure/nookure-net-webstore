@@ -59,7 +59,8 @@ export default defineI18nConfig(() => ({
             },
             footer: {
                 join_our_discord: "Discord",
-                copyright: "© 2024 {storeName}. Todos los derechos reservados.",
+                copyright: "© 2024 {storeName}. Todos los derechos reservados. ",
+                disclaimer: "Nookure Network no está asociada ni afiliada con Mojang, AB, ni cuenta con su respaldo.",
                 tebex: {
                     description:
                         "Este sitio web y su proceso de pago son operados por nuestro revendedor en línea y comerciante registrado, Tebex Limited, quien también maneja consultas y reembolsos relacionados con pedidos.",
