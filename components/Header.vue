@@ -32,7 +32,8 @@
                     <NuxtImg
                         preload
                         class="header__logo d-none d-md-block"
-                        src="/logo.svg"
+                        width="120"
+                        src="/logo.webp"
                         :alt="$t('store_name')"
                     />
 
