@@ -16,8 +16,8 @@ export default defineI18nConfig(() => ({
             play: "play.nookure.net",
             index: {
                 hero: {
-                    title: "Categorías",
-                    subtitle: "",
+                    title: "Tienda de Nookure Network",
+                    subtitle: "Te damos la bienvenida a la tienda de Nookure Network. Aquí podrás comprar rangos, objetos y mucho más.",
                 },
             },
             buttons: {
