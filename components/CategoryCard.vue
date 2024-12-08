@@ -37,10 +37,15 @@ defineProps<CategoryCardProps>();
     aspect-ratio: 1/ 1;
     border-radius: $category-card-border-radius;
     border: $category-card-border;
+    background-color: $package-card-bg;
     min-width: $category-card-min-width;
 
     img {
         object-fit: contain;
+    }
+
+    div {
+        margin: 1rem;
     }
 }
 </style>

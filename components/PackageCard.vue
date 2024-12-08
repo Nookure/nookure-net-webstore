@@ -194,6 +194,8 @@ const quantity = ref<number>(1);
         padding: 32px;
         flex-grow: 1;
         background: $package-card-image-bg;
+        border-top-right-radius: $package-card-border-radius;
+        border-top-left-radius: $package-card-border-radius;
     }
 
     &__details {
