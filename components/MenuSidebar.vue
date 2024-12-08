@@ -33,13 +33,13 @@
             >
                 <template #prepend>
                     <NuxtImg
-                        v-if="category.packages[0].image"
+                        v-if="category.packages && category.packages.length > 0 && category.packages[0].image"
                         :src="category.packages[0].image"
                         :alt="category.name"
                         width="50px"
                         height="50px"
                         loading="lazy"
-                    ></NuxtImg>
+                    />
                 </template>
 
                 {{ category.name }}

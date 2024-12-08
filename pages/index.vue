@@ -24,6 +24,7 @@
                     }"
                 >
                     <CategoryCard
+                        v-if="category.packages && category.packages.length > 0"
                         :image="category.packages[0].image"
                         :category="category"
                     />
@@ -41,6 +42,7 @@
         >
             <HeaderCard>
                 <NuxtImg
+                    v-if="category.packages && category.packages.length > 0"
                     :src="category.packages[0].image"
                     :alt="category.name"
                     width="60px"
