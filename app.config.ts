@@ -2,21 +2,21 @@
 // See index.d.ts for the full list of available options
 export default defineAppConfig({
     // Shows in the <title> tag before the name of the page
-    titlePrefix: "Example Store",
+    titlePrefix: "Tienda de Nookure Network",
     // The name of your store
-    storeName: "Example Store",
+    storeName: "Tienda de Nookure Network",
     // Require the user to login before they add items?
     auth: true,
     // Use external auth methods, e.g. CFX, Steam (Set to false for minecraft stores)
-    authExternal: true,
+    authExternal: false,
     // The unique ID of the store
-    storeId: 45295,
+    storeId: 1512524,
     // A link to your main site (optional)
-    mainSiteUrl: "https://example.com",
+    mainSiteUrl: "/",
     // A discord invite url (optional)
-    discordUrl: "https://discord.gg/example",
+    discordUrl: "https://discord.nookure.net",
     // A IP of your server which to display (optional)
-    serverIp: "play.example.com",
+    serverIp: "play.nookure.net",
     // Reveal the sidebar when an item is added to the cart?
     showCartOnAdd: true,
     // Show confetti after checkout?
@@ -29,7 +29,7 @@ export default defineAppConfig({
         colors: [
             {
                 name: "primary",
-                color: "#EB5526",
+                color: "#9cddf9",
             },
             {
                 name: "secondary",
