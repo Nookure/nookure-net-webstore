@@ -4,7 +4,7 @@ export default defineAppConfig({
     // Shows in the <title> tag before the name of the page
     titlePrefix: "Tienda de Nookure Network",
     // The name of your store
-    storeName: "Tienda de Nookure Network",
+    storeName: "Nookure Network",
     // Require the user to login before they add items?
     auth: true,
     // Use external auth methods, e.g. CFX, Steam (Set to false for minecraft stores)
@@ -14,13 +14,13 @@ export default defineAppConfig({
     // A link to your main site (optional)
     mainSiteUrl: "/",
     // A discord invite url (optional)
-    discordUrl: "https://discord.nookure.net",
+    discordUrl: "https://discord.gg/Q5bvpCnbUW",
     // A IP of your server which to display (optional)
     serverIp: "play.nookure.net",
     // Reveal the sidebar when an item is added to the cart?
     showCartOnAdd: true,
     // Show confetti after checkout?
-    confetti: true,
+    confetti: false,
     // Game type name to display on the store
     gameTypeName: "Minecraft",
     // Tebex.js settings see https://docs.tebex.io/developers/tebex.js/integration#config
