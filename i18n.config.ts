@@ -36,6 +36,7 @@ export default defineI18nConfig(() => ({
             auth: {
                 login: {
                     title: "Introduce tu nombre de usuario de {gameTypeName}:",
+                    usernamePlaceholder: "Usuario",
                 },
                 logout: {
                     title: "¿Estás seguro de que deseas cerrar sesión?",
