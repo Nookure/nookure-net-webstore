@@ -17,7 +17,7 @@
                 <Input
                     v-model="username"
                     type="text"
-                    placeholder="Username"
+                    :placeholder="$t('auth.login.usernamePlaceholder')"
                     @keyup.enter="onLogin"
                     class="mb-4"
                     :disabled="loading"
